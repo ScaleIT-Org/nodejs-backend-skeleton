@@ -44,3 +44,6 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+var db = require('./database_examples');
+db.dbs()
